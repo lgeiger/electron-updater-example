@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -23,7 +23,10 @@
     "appId": "com.github.lgeiger.electronupdaterexample",
     "mac": {
       "category": "your.app.category.type",
-      "target": ["zip", "dmg"]
+      "target": [
+        "zip",
+        "dmg"
+      ]
     },
     "nsis": {
       "perMachine": true
